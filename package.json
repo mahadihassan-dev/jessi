@@ -1,0 +1,28 @@
+{
+  "name": "jessi",
+  "version": "1.0.0",
+  "description": "Jessi is A Blog Site Template. It is Designed for Blogging. This Theme Designed and Developed by Mahadi Hassan.",
+  "main": "index.html",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahadihassan-dev/jessi.git"
+  },
+  "keywords": [
+    "Jessi;",
+    "Mahadi",
+    "Hassan;",
+    "Github"
+  ],
+  "author": "Mahadi Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahadihassan-dev/jessi/issues"
+  },
+  "homepage": "https://github.com/mahadihassan-dev/jessi#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
