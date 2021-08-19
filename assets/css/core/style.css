@@ -1,1 +1,169 @@
-*{margin:0;padding:0;outline:0;list-style:none;box-sizing:border-box;text-decoration:none}
+/*Browser Reset Start*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* line 2, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* line 11, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.clr {
+  clear: both;
+}
+
+/* line 14, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+a {
+  text-decoration: none !important;
+}
+
+/*Browser Reset Start*/
+/*  Header Section Start */
+/* line 31, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.site_header {
+  margin-top: 30px;
+  position: relative;
+}
+
+/* line 34, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.site_header::before {
+  position: absolute;
+  content: "";
+  top: -30px;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background: #2c2d2f;
+}
+
+/* line 44, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.site_logo {
+  display: block;
+  margin-top: 30px;
+}
+
+/* line 48, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.SiteNavigation {
+  position: relative;
+  height: 60px;
+  margin-top: 30px;
+  line-height: 60px;
+}
+
+/* line 53, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.SiteNavigation::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  border-top: 1px solid #f5f5f5;
+  top: 0;
+  left: 0;
+}
+
+/* line 61, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.SiteNavigation::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  border-top: 1px solid #f5f5f5;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 71, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.header_search .site_search {
+  color: #2c2d2f;
+  font-size: 18px;
+}
+
+/* line 74, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.header_search .site_search i {
+  transform: rotate(90deg);
+}
+
+/* line 79, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.siteNavbar {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* line 82, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.siteNavbar .siteNavBarItem {
+  display: inline-block;
+}
+
+/* line 84, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.siteNavbar .siteNavBarItem .SiteNavBarItems {
+  display: block;
+  font-size: 18px;
+  padding: 0px 10px;
+  color: #2c2d2f;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 95, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.site_cart_2Nav .SiteCart_2Nav .SiteCart_2Nav_item {
+  display: inline-block;
+}
+
+/* line 102, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.SiteCart_2Nav .siteCart .SiteCart {
+  color: #2c2d2f;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* line 109, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.SiteCart_2Nav .site_2Nav .Site2Nav {
+  color: #2c2d2f;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+/*  Header Section Start */
+/*  Banner Section Start */
+/* line 119, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.banner_main {
+  position: relative;
+  background: url(/assets/images/banner.png);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 125, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.banner_main .banner_socialMedia {
+  position: absolute;
+  top: 50%;
+  left: 160px;
+  transform: translateY(-50%);
+}
+
+/* line 131, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.banner_main .banner_socialMedia .bannerSocialMediaIcon ._banner_socialmedia_icon {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* line 137, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.banner_main .banner_scrollDown {
+  position: absolute;
+  bottom: 42px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 143, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.banner_main .banner_scrollDown .BannerScrollDown {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/*  Banner Section End */
+
+/*# sourceMappingURL=style.css.map */
