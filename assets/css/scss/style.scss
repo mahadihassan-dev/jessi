@@ -107,6 +107,16 @@ cursive;
     }
 }
 
+.jessi_menu-row {
+    display: flex;
+    .jessi_menu-col-md-2 {
+        width: 20%;
+    }
+    .jessi_menu-col-md-8 {
+        width: 60%;
+    }
+}
+
 .header_search {
     .site_search {
         color: $font-color;
