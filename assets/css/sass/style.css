@@ -1,0 +1,510 @@
+/*Browser Reset Start*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/*Browser Reset Start*/
+/* Importing Varriables */
+/* Google Font = Poppins */
+/* Google Font = Montserrat*/
+/* Google Fonts = Open Sans */
+/* Google Fonts = Dancing Script */
+/* Quentin Font Imported */
+@font-face {
+  font-family: 'Quentin', sans-serif;
+  src: url(../Quentin.otf);
+}
+
+/*  Header Section Start */
+.site_header {
+  margin-top: 30px;
+  position: relative;
+}
+
+.site_header::before {
+  position: absolute;
+  content: "";
+  top: -30px;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background: #2c2d2f;
+}
+
+.site_logo {
+  display: block;
+  margin-top: 30px;
+}
+
+.SiteNavigation {
+  position: relative;
+  height: 60px;
+  margin-top: 30px;
+  line-height: 60px;
+}
+
+.SiteNavigation::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  top: 0;
+  left: 0;
+}
+
+.SiteNavigation::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+  left: 0;
+}
+
+.header_search .site_search {
+  color: #2c2d2f;
+  font-size: 18px;
+}
+
+.header_search .site_search i {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.siteNavbar {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.siteNavbar .siteNavBarItem {
+  display: inline-block;
+}
+
+.siteNavbar .siteNavBarItem .SiteNavBarItems {
+  display: block;
+  font-size: 18px;
+  padding: 0px 10px;
+  color: #2c2d2f;
+  font-family: "Poppins", sans-serif;
+}
+
+.site_cart_2Nav .SiteCart_2Nav .SiteCart_2Nav_item {
+  display: inline-block;
+}
+
+.SiteCart_2Nav .siteCart .SiteCart {
+  color: #2c2d2f;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.SiteCart_2Nav .site_2Nav .Site2Nav {
+  color: #2c2d2f;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+/*  Header Section Start */
+/*  Banner Section Start */
+.banner_main {
+  position: relative;
+  background: url(/assets/images/banner.png);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner_main .banner_socialMedia {
+  position: absolute;
+  top: 50%;
+  left: 160px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.banner_main .banner_socialMedia .bannerSocialMediaIcon ._banner_socialmedia_icon {
+  color: #fff;
+  font-size: 24px;
+}
+
+.banner_main .banner_scrollDown {
+  position: absolute;
+  bottom: 42px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner_main .banner_scrollDown .BannerScrollDown {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/*  Banner Section End */
+/* About Us Section Start */
+.aboutUs_left {
+  position: relative;
+}
+
+.aboutUs_left .aboutUs_title {
+  margin-top: 135px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #2c2d2f;
+}
+
+.aboutUs_left .aboutUs_description {
+  font-family: "Open Sans", sans-serif;
+  color: #5b5d5f;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.aboutUs_left .aboutUs_title_after {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #2c2d2f;
+}
+
+.aboutUs_left .aboutUs_readmore_btn {
+  position: relative;
+  text-transform: uppercase;
+  color: #2c2d2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 40px;
+  display: block;
+}
+
+.aboutUs_left .aboutUs_readmore_btn::after {
+  position: absolute;
+  content: '\f178';
+  top: 1px;
+  right: 145px;
+  font-family: 'Font Awesome 5 pro';
+  font-size: 14px;
+}
+
+.aboutUs_right {
+  position: relative;
+}
+
+.aboutUs_right .aboutUs_sliderImageList {
+  position: absolute;
+  top: 165px;
+  left: 295px;
+  background: #fff;
+  padding: 25px;
+}
+
+.aboutUs_right .aboutUs_sliderImageList img {
+  width: 125px;
+}
+
+.aboutUs_right .aboutUs_socialFollow {
+  position: absolute;
+  top: 50%;
+  right: -55px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #000;
+}
+
+.aboutUs_right .aboutUs_socialFollow .aboutUs_SocialFollow {
+  display: block;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 25px;
+  margin-left: -20px;
+  font-family: "Dancing Script", cursive;
+}
+
+/* About Us Section End */
+/* Blog and Widget Card Section Start*/
+.BlogCard_big-main {
+  height: 950px;
+}
+
+.BlogCard_big-main .BlogCard_big-image {
+  position: relative;
+}
+
+.BlogCard_big-main .BlogCard_big-image .big-blog-category {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  display: block;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 30px;
+  width: 115px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription {
+  position: absolute;
+  bottom: -475px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description {
+  text-align: center;
+  width: 685px;
+  padding: 15px 30px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-postHistory {
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+  margin-top: 10px;
+  display: block;
+  position: relative;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-postHistory::after {
+  position: absolute;
+  content: '';
+  bottom: -8px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-5deg);
+          transform: translate(-50%, -50%) rotate(-5deg);
+  width: 145px;
+  height: 1px;
+  background: #2c2d2f;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog_blogtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: #2c2d2f;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li {
+  display: inline-block;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li a {
+  color: #5b5d5f;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postReadtimeline {
+  position: relative;
+  margin-right: 10px;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postReadtimeline::after {
+  position: absolute;
+  content: '';
+  top: 10px;
+  right: -15px;
+  width: 5px;
+  height: 5px;
+  background: #5b5d5f;
+  border-radius: 50%;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postAuthor {
+  margin-left: 10px;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory {
+  width: 33.33%;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory {
+  position: relative;
+  display: block;
+  width: 110px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  color: #2c2d2f;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 1px;
+  background: #2c2d2f;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 260px;
+  height: 1px;
+  background: #2c2d2f;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardReadMoreBtn {
+  width: 33.33%;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardReadMoreBtn .BigCardReadMoreBtn {
+  position: relative;
+  display: block;
+  width: 135px;
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+  margin: auto;
+  background: #2c2d2f;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 12px;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare {
+  width: 33.33%;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare {
+  position: relative;
+  display: block;
+  width: 110px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  margin-left: auto;
+  color: #2c2d2f;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  width: 260px;
+  height: 1px;
+  background: #2c2d2f;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  width: 260px;
+  height: 1px;
+  background: #2c2d2f;
+}
+
+.BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare i {
+  margin-left: 5px;
+}
+
+.BlogWidget {
+  border: 1px solid #2c2d2f36;
+}
+
+.BlogWidget .ourLocation_widget {
+  text-align: center;
+  position: relative;
+}
+
+.BlogWidget .ourLocation_widget::after {
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 50%;
+  width: 260px;
+  height: .1px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #2c2d2f40;
+}
+
+.BlogWidget .ourLocation_widget .ourLocation_title {
+  font-size: 16px;
+  margin-top: 45px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: #2c2d2f;
+}
+
+.BlogWidget .ourLocation_widget .ourLocation_title::after {
+  position: absolute;
+  content: '';
+  bottom: -25px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 15px;
+  border-bottom: 1px solid #2c2d2f;
+}
+
+.BlogWidget .ourLocation_widget .ourLocation_map {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.BlogWidget .ourLocation_widget .ourLocation_address {
+  margin-bottom: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #2c2d2f;
+}
+
+/* Blog and Widget Card Section End*/
+/*# sourceMappingURL=style.css.map */

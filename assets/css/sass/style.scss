@@ -1,4 +1,5 @@
 /*Browser Reset Start*/
+
 * {
     margin: 0;
     padding: 0;
@@ -11,23 +12,59 @@
 .clr {
     clear: both;
 }
+
 a {
     text-decoration: none !important;
 }
+
+
 /*Browser Reset Start*/
 
-// Google Font = Poppins
+
+/* Importing Varriables */
+
+// @import url(_varribales.scss);
+
+/* Google Font = Poppins */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Google Font = Montserrat*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Google Fonts = Open Sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/* Google Fonts = Dancing Script */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* Quentin Font Imported */
+
+@font-face {
+    font-family: 'Quentin', sans-serif;
+    src: url(../Quentin.otf);
+}
 
 // Varriables
 $margin-top-30px: 30px;
 $margin-top-10px: 10px;
 $primary-color: #2c2d2f;
 $font-color: #2c2d2f;
-$font-family: 'Poppins', sans-serif;
-
+$font-color-2: #5b5d5f;
+$font-family: 'Poppins',
+sans-serif;
+$font-family-Montserrat: 'Montserrat',
+sans-serif;
+$font-family-open-sans: 'Open Sans',
+sans-serif;
+$font-family-dancing: 'Dancing Script',
+cursive;
 
 /*  Header Section Start */
+
 .site_header {
     margin-top: $margin-top-30px;
     position: relative;
@@ -41,10 +78,12 @@ $font-family: 'Poppins', sans-serif;
         background: $primary-color;
     }
 }
+
 .site_logo {
     display: block;
     margin-top: 30px;
 }
+
 .SiteNavigation {
     position: relative;
     height: 60px;
@@ -54,7 +93,7 @@ $font-family: 'Poppins', sans-serif;
         position: absolute;
         content: "";
         width: 100%;
-        border-top: 1px solid #f5f5f5;
+        border-top: 1px solid #e4e4e4;
         top: 0;
         left: 0;
     }
@@ -62,11 +101,12 @@ $font-family: 'Poppins', sans-serif;
         position: absolute;
         content: "";
         width: 100%;
-        border-top: 1px solid #f5f5f5;
+        border-top: 1px solid #e4e4e4;
         bottom: 0;
         left: 0;
     }
 }
+
 .header_search {
     .site_search {
         color: $font-color;
@@ -76,6 +116,7 @@ $font-family: 'Poppins', sans-serif;
         }
     }
 }
+
 .siteNavbar {
     text-align: center;
     margin-bottom: 0;
@@ -90,6 +131,7 @@ $font-family: 'Poppins', sans-serif;
         }
     }
 }
+
 .site_cart_2Nav {
     .SiteCart_2Nav {
         .SiteCart_2Nav_item {
@@ -97,6 +139,7 @@ $font-family: 'Poppins', sans-serif;
         }
     }
 }
+
 .SiteCart_2Nav {
     .siteCart {
         .SiteCart {
@@ -113,9 +156,13 @@ $font-family: 'Poppins', sans-serif;
         }
     }
 }
+
+
 /*  Header Section Start */
 
+
 /*  Banner Section Start */
+
 .banner_main {
     position: relative;
     background: url(/assets/images/banner.png);
@@ -127,7 +174,7 @@ $font-family: 'Poppins', sans-serif;
         top: 50%;
         left: 160px;
         transform: translateY(-50%);
-        .bannerSocialMediaIcon{
+        .bannerSocialMediaIcon {
             ._banner_socialmedia_icon {
                 color: #fff;
                 font-size: 24px;
@@ -147,4 +194,539 @@ $font-family: 'Poppins', sans-serif;
         }
     }
 }
+
+
 /*  Banner Section End */
+
+
+/* About Us Section Start */
+
+.aboutUs_left {
+    position: relative;
+    .aboutUs_title {
+        margin-top: 135px;
+        font-family: $font-family-Montserrat;
+        font-weight: 800;
+        color: $font-color;
+    }
+    .aboutUs_description {
+        font-family: $font-family-open-sans;
+        color: $font-color-2;
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .aboutUs_title_after {
+        position: absolute;
+        top: -100px;
+        right: 0;
+        transform: rotate(-90deg);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: $font-family-Montserrat;
+        font-weight: 400;
+        color: $font-color;
+    }
+    .aboutUs_readmore_btn {
+        position: relative;
+        text-transform: uppercase;
+        color: $font-color;
+        font-family: $font-family-Montserrat;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 40px;
+        display: block;
+        &::after {
+            position: absolute;
+            content: '\f178';
+            top: 1px;
+            right: 145px;
+            font-family: 'Font Awesome 5 pro';
+            font-size: 14px;
+        }
+    }
+}
+
+.aboutUs_right {
+    position: relative;
+    .aboutUs_sliderImageList {
+        position: absolute;
+        top: 165px;
+        left: 295px;
+        background: #fff;
+        padding: 25px;
+        img {
+            width: 125px;
+        }
+    }
+    .aboutUs_socialFollow {
+        position: absolute;
+        top: 50%;
+        right: -55px;
+        transform: translate(-50%, -50%);
+        color: #000;
+        .aboutUs_SocialFollow {
+            display: block;
+            transform: rotate(90deg);
+            margin-top: 25px;
+            margin-left: -20px;
+            font-family: $font-family-dancing;
+        }
+    }
+}
+
+
+/* About Us Section End */
+
+
+/* Blog and Widget Card Section Start*/
+
+// Blog Card Start = Big
+.BlogCard_big-main {
+    height: 950px;
+    .BlogCard_big-image {
+        position: relative;
+        // Blog Post Category
+        .big-blog-category {
+            position: absolute;
+            top: 30px;
+            right: 25px;
+            display: block;
+            background: #fff;
+            font-family: $font-family-Montserrat;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 12px;
+            border-radius: 30px;
+            width: 115px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            cursor: pointer;
+        }
+        // Blog Post description
+        .BlogCard_bigCardDescription {
+            position: absolute;
+            bottom: -475px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            .BlogCard_blog-description {
+                text-align: center;
+                width: 685px;
+                padding: 15px 30px;
+                margin: auto;
+                background-color: #fff;
+                .BigCard_blog-postHistory {
+                    font-family: $font-family-dancing;
+                    font-size: 22px;
+                    margin-top: $margin-top-10px;
+                    display: block;
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        bottom: -8px;
+                        left: 50%;
+                        transform: translate(-50%, -50%) rotate(-5deg);
+                        width: 145px;
+                        height: 1px;
+                        background: $primary-color;
+                    }
+                }
+                .BigCard_blog_blogtitle {
+                    font-family: $font-family-Montserrat;
+                    font-size: 36px;
+                    color: $font-color;
+                    font-weight: 700;
+                    margin-top: $margin-top-30px;
+                }
+                .BigCard_blog-Readtimeline-author {
+                    li {
+                        display: inline-block;
+                        a {
+                            color: $font-color-2;
+                        }
+                        .BCb-postReadtimeline {
+                            position: relative;
+                            margin-right: 10px;
+                            &::after {
+                                position: absolute;
+                                content: '';
+                                top: 10px;
+                                right: -15px;
+                                width: 5px;
+                                height: 5px;
+                                background: #5b5d5f;
+                                border-radius: 50%;
+                            }
+                        }
+                        .BCb-postAuthor {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+            // Next Category , read More, Share Button
+            .BigCard_blog-ShareCategoryRead {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                height: 60px;
+                line-height: 60px;
+                width: 100%;
+                .BigCard_blog-BigCardCategory {
+                    width: 33.33%;
+                    .BigCardCategory {
+                        position: relative;
+                        display: block;
+                        width: 110px;
+                        text-align: center;
+                        height: 60px;
+                        line-height: 60px;
+                        color: $font-color;
+                        &::before {
+                            position: absolute;
+                            content: '';
+                            top: 0;
+                            left: 0;
+                            width: 260px;
+                            height: 1px;
+                            background: $primary-color;
+                        }
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            bottom: 0;
+                            left: 0;
+                            width: 260px;
+                            height: 1px;
+                            background: $primary-color;
+                        }
+                    }
+                }
+                .BigCard_blog-BigCardReadMoreBtn {
+                    width: 33.33%;
+                    .BigCardReadMoreBtn {
+                        position: relative;
+                        display: block;
+                        width: 135px;
+                        text-align: center;
+                        height: 38px;
+                        line-height: 38px;
+                        margin: auto;
+                        background: $primary-color;
+                        color: #fff;
+                        border-radius: 30px;
+                        margin-top: 12px;
+                    }
+                }
+                .BigCard_blog-BigCardShare {
+                    width: 33.33%;
+                    .BigCardShare {
+                        position: relative;
+                        display: block;
+                        width: 110px;
+                        text-align: center;
+                        height: 60px;
+                        line-height: 60px;
+                        margin-left: auto;
+                        color: $font-color;
+                        &::before {
+                            position: absolute;
+                            content: '';
+                            top: 0;
+                            right: 0;
+                            width: 260px;
+                            height: 1px;
+                            background: $primary-color;
+                        }
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            bottom: 0;
+                            right: 0;
+                            width: 260px;
+                            height: 1px;
+                            background: $primary-color;
+                        }
+                        i {
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Blog Widget Start
+.BlogWidget {
+    border: 1px solid #2c2d2f36;
+    // Our Location
+    .ourLocation_widget {
+        text-align: center;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: -20px;
+            left: 50%;
+            width: 260px;
+            height: .1px;
+            transform: translate(-50%, -50%);
+            background: #2c2d2f40;
+        }
+        .ourLocation_title {
+            font-size: 16px;
+            margin-top: 45px;
+            position: relative;
+            font-family: $font-family-Montserrat;
+            color: $font-color;
+            &::after {
+                position: absolute;
+                content: '';
+                bottom: -25px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 15px;
+                border-bottom: 1px solid $primary-color;
+            }
+        }
+        .ourLocation_map {
+            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+        .ourLocation_address {
+            margin-bottom: 45px;
+            font-family: $font-family-Montserrat;
+            font-size: 14px;
+            color: $font-color;
+        }
+    }
+    // Blog Author
+    .author_widget {
+        text-align: center;
+        padding: 0px 25px;
+        .author_helloMessage {
+            font-size: 16px;
+            margin-top: 45px;
+            position: relative;
+            font-family: $font-family-Montserrat;
+            color: $font-color;
+            &::after {
+                position: absolute;
+                content: '';
+                bottom: -25px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 15px;
+                border-bottom: 1px solid $primary-color;
+            }
+        }
+        .author_profileImage {
+            margin-top: 45px;
+        }
+        .authorName {
+            font-family: $font-family-dancing;
+            text-transform: capitalize;
+            font-weight: bold;
+            margin-top: 45px;
+        }
+        .authorMessage {
+            margin-top: 35px;
+            font-size: 15px;
+            font-family: $font-family-Montserrat;
+            font-weight: 400;
+        }
+        .author_widget_social {
+            margin-top: 35px;
+            li {
+                display: inline-block;
+                .author_social_media {
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    line-height: 45px;
+                    text-align: center;
+                    background: #e4e4e4;
+                    color: $font-color;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+    // Trending Slider Widget Start
+    .trending_post_slider_widget {
+        text-align: center;
+        .trending_slider_title {
+            font-size: 16px;
+            margin-top: 45px;
+            position: relative;
+            font-family: $font-family-Montserrat;
+            color: $font-color;
+            &::after {
+                position: absolute;
+                content: '';
+                bottom: -25px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 15px;
+                border-bottom: 1px solid $primary-color;
+            }
+        }
+        .trending_slider {
+            margin-top: 45px;
+            .trending_slide {
+                width: 250px;
+                margin: auto;
+                position: relative;
+                .trending_slide_info {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, .5);
+                    .trending_slide_info_title {
+                        font-size: 22px;
+                        color: #fff;
+                        margin-top: 85px;
+                        font-family: $font-family-Montserrat;
+                        padding: 0px 30px;
+                    }
+                    .trending_slideBtn {
+                        display: block;
+                        width: 135px;
+                        height: 35px;
+                        line-height: 35px;
+                        border-radius: 30px;
+                        background: #ffffff70;
+                        color: #fff;
+                        margin: auto;
+                        margin-top: 55px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Popular post Slider Section Start
+.popular_post_slider {
+    .popular_post_slide_title {
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+        margin-top: 45px;
+        font-family: $font-family-Montserrat;
+        color: $font-color;
+        &::after {
+            position: absolute;
+            content: '';
+            bottom: -25px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 15px;
+            border-bottom: 1px solid $primary-color;
+        }
+    }
+    .popular_post_slides {
+        margin-top: 45px;
+        .popular_post_slide {
+            .popular_post_card {
+                display: flex;
+                margin: auto;
+                width: 100%;
+                margin: 30px 0px;
+                .popular_post_card-image {
+                    width: 35%;
+                    text-align: center;
+                }
+                .popular_post_card_details {
+                    width: 65%;
+                    .popular_post_card_title {
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: $font-color;
+                    }
+                    .popular_post_card_publishDate {
+                        font-size: 16px;
+                        color: $font-color-2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Post Category Shortcut Start
+.post-category-shortcut {
+    margin-top: 45px;
+    .PostCategoryShortCut {
+        display: block;
+        margin: auto;
+        text-align: center;
+        .PostCategoryShortCut-list {
+            margin: 10px 0px;
+            .PostCategoryShortCutItem {
+                display: block;
+                width: 250px;
+                height: 55px;
+                line-height: 55px;
+                text-align: center;
+                margin: auto;
+                background: #f3f3f3;
+                border-radius: 10px;
+                color: $font-color;
+                font-size: 18px;
+                font-family: $font-family-Montserrat;
+                transition: all linear .3s;
+                &:hover {
+                    background: #2c2d2f;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.instagram-widget {
+    .instagram-widget-title {
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+        margin-top: 45px;
+        font-family: $font-family-Montserrat;
+        color: $font-color;
+        &::after {
+            position: absolute;
+            content: '';
+            bottom: -25px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 15px;
+            border-bottom: 1px solid $primary-color;
+        }
+    }
+    .instagram-widget-imageGrid {
+        margin-top: 45px;
+        .instagram-widget-image {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            .instagram-widget-imageGrid-row {
+                width: 270px;
+                margin: auto;
+                .instagram-widgetImageGridItems {
+                    width: 135px;
+                    float: left;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+/* Blog and Widget Card Section End*/

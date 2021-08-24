@@ -1,0 +1,218 @@
+SCSS code Backup
+.BlogCard-big {
+    .BlogCard_big-main {
+        position: relative;
+        .BlogCard_big-image {
+            position: relative;
+            .big-blog-category {
+                position: absolute;
+                top: 30px;
+                right: 25px;
+                display: block;
+                background: #fff;
+                font-family: $font-family-Montserrat;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 12px;
+                border-radius: 30px;
+                width: 115px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                cursor: pointer;
+            }
+            .BlogCard_blog-description { 
+                position: absolute;
+                bottom: -325px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                width: 685px;
+                padding: 15px 30px;
+                margin: auto;
+                background-color: #f2f2f2;
+                .BigCard_blog-postHistory {
+                    font-family: $font-family-dancing;
+                    font-size: 22px;
+                    margin-top: $margin-top-30px;
+                    display: block;
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        bottom: -8px;
+                        left: 50%;
+                        transform: translate(-50%, -50%) rotate(-5deg);
+                        width: 145px;
+                        height: 1px;
+                        background: $primary-color;
+                    }
+                }
+                .BigCard_blog_blogtitle {
+                    font-family: $font-family-Montserrat;
+                    font-size: 36px;
+                    color: $font-color;
+                    font-weight: 700;
+                    margin-top: $margin-top-30px;
+                }
+                .BigCard_blog-Readtimeline-author {
+                    li {
+                        display: inline-block;
+                        a {
+                            color: $font-color-2;
+                        }
+                        .BCb-postReadtimeline {
+                            position: relative;
+                            margin-right: 10px;
+                            &::after {
+                                position: absolute;
+                                content: '';
+                                top: 10px;
+                                right: -15px;
+                                width: 5px;
+                                height: 5px;
+                                background: #5b5d5f;
+                                border-radius: 50%;
+                            }
+                        }
+                        .BCb-postAuthor {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+Css Code Back up
+
+/* Blog and Widget Card Section Start*/
+/* line 251, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main {
+  position: relative;
+}
+
+/* line 253, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image {
+  position: relative;
+}
+
+/* line 255, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  display: block;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 30px;
+  width: 115px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 272, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description {
+  position: absolute;
+  bottom: -325px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 685px;
+  padding: 15px 30px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+/* line 282, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description .BigCard_blog-postHistory {
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+  margin-top: 30px;
+  display: block;
+  position: relative;
+}
+
+/* line 288, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description .BigCard_blog-postHistory::after {
+  position: absolute;
+  content: '';
+  bottom: -8px;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-5deg);
+  width: 145px;
+  height: 1px;
+  background: #2c2d2f;
+}
+
+/* line 299, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description .BigCard_blog_blogtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: #2c2d2f;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+/* line 307, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description .BigCard_blog-Readtimeline-author li {
+  display: inline-block;
+}
+
+/* line 309, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description .BigCard_blog-Readtimeline-author li a {
+  color: #5b5d5f;
+}
+
+/* line 312, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postReadtimeline {
+  position: relative;
+  margin-right: 10px;
+}
+
+/* line 315, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postReadtimeline::after {
+  position: absolute;
+  content: '';
+  top: 10px;
+  right: -15px;
+  width: 5px;
+  height: 5px;
+  background: #5b5d5f;
+  border-radius: 50%;
+}
+
+/* line 326, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog_desc_card .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postAuthor {
+  margin-left: 10px;
+}
+
+/* line 333, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog-ShareCategoryRead {
+  margin-top: 225px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* line 339, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory {
+  display: block;
+}
+
+/* line 344, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogCard-big .BlogCard_big-main .BlogCard_big-image .big-blog-category .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardReadMoreBtn .BigCardReadMoreBtn {
+  display: block;
+}
+
+/* Blog and Widget Card Section End*/
