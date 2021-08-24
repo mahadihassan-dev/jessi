@@ -693,8 +693,8 @@ a {
   margin-top: 55px;
 }
 
-/* line 617, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.popular_post_slider .popular_post_slide_title {
+/* line 615, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .popular_post_slider .popular_post_slide_title {
   text-align: center;
   position: relative;
   font-size: 16px;
@@ -703,8 +703,8 @@ a {
   color: #2c2d2f;
 }
 
-/* line 624, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.popular_post_slider .popular_post_slide_title::after {
+/* line 622, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .popular_post_slider .popular_post_slide_title::after {
   position: absolute;
   content: '';
   bottom: -25px;
@@ -714,62 +714,62 @@ a {
   border-bottom: 1px solid #2c2d2f;
 }
 
-/* line 634, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.popular_post_slider .popular_post_slides {
+/* line 632, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .popular_post_slider .popular_post_slides {
   margin-top: 45px;
 }
 
-/* line 637, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card {
+/* line 635, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card {
   display: flex;
   margin: auto;
   width: 100%;
   margin: 30px 0px;
 }
 
-/* line 642, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card-image {
+/* line 640, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card-image {
   width: 35%;
   text-align: center;
 }
 
-/* line 646, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details {
+/* line 644, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details {
   width: 65%;
 }
 
-/* line 648, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details .popular_post_card_title {
+/* line 646, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details .popular_post_card_title {
   font-size: 16px;
   font-weight: 700;
   color: #2c2d2f;
 }
 
-/* line 653, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details .popular_post_card_publishDate {
+/* line 651, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details .popular_post_card_publishDate {
   font-size: 16px;
   color: #5b5d5f;
 }
 
-/* line 664, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.post-category-shortcut {
+/* line 661, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .post-category-shortcut {
   margin-top: 45px;
 }
 
-/* line 666, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.post-category-shortcut .PostCategoryShortCut {
+/* line 663, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .post-category-shortcut .PostCategoryShortCut {
   display: block;
   margin: auto;
   text-align: center;
 }
 
-/* line 670, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list {
+/* line 667, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list {
   margin: 10px 0px;
 }
 
-/* line 672, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list .PostCategoryShortCutItem {
+/* line 669, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list .PostCategoryShortCutItem {
   display: block;
   width: 250px;
   height: 55px;
@@ -784,14 +784,14 @@ a {
   transition: all linear .3s;
 }
 
-/* line 685, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list .PostCategoryShortCutItem:hover {
+/* line 682, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list .PostCategoryShortCutItem:hover {
   background: #2c2d2f;
   color: #fff;
 }
 
-/* line 695, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.instagram-widget .instagram-widget-title {
+/* line 691, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .instagram-widget .instagram-widget-title {
   text-align: center;
   position: relative;
   font-size: 16px;
@@ -800,8 +800,8 @@ a {
   color: #2c2d2f;
 }
 
-/* line 702, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.instagram-widget .instagram-widget-title::after {
+/* line 698, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .instagram-widget .instagram-widget-title::after {
   position: absolute;
   content: '';
   bottom: -25px;
@@ -811,33 +811,33 @@ a {
   border-bottom: 1px solid #2c2d2f;
 }
 
-/* line 712, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.instagram-widget .instagram-widget-imageGrid {
+/* line 708, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .instagram-widget .instagram-widget-imageGrid {
   margin-top: 45px;
 }
 
-/* line 714, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.instagram-widget .instagram-widget-imageGrid .instagram-widget-image {
+/* line 710, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .instagram-widget .instagram-widget-imageGrid .instagram-widget-image {
   display: flex;
   width: 100%;
   flex-direction: column;
 }
 
-/* line 718, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.instagram-widget .instagram-widget-imageGrid .instagram-widget-image .instagram-widget-imageGrid-row {
+/* line 714, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .instagram-widget .instagram-widget-imageGrid .instagram-widget-image .instagram-widget-imageGrid-row {
   width: 270px;
   margin: auto;
 }
 
-/* line 721, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.instagram-widget .instagram-widget-imageGrid .instagram-widget-image .instagram-widget-imageGrid-row .instagram-widgetImageGridItems {
+/* line 717, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .instagram-widget .instagram-widget-imageGrid .instagram-widget-image .instagram-widget-imageGrid-row .instagram-widgetImageGridItems {
   width: 135px;
   float: left;
   text-align: center;
 }
 
-/* line 729, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
-.instagram-widget .Instagram_follow {
+/* line 725, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.BlogWidget .instagram-widget .Instagram_follow {
   display: block;
   text-align: center;
   font-size: 22px;

@@ -610,130 +610,128 @@ cursive;
             }
         }
     }
-}
-
-// Popular post Slider Section Start
-.popular_post_slider {
-    .popular_post_slide_title {
-        text-align: center;
-        position: relative;
-        font-size: 16px;
-        margin-top: 45px;
-        font-family: $font-family-Montserrat;
-        color: $font-color;
-        &::after {
-            position: absolute;
-            content: '';
-            bottom: -25px;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 15px;
-            border-bottom: 1px solid $primary-color;
+    // Popular post Slider Section Start
+    .popular_post_slider {
+        .popular_post_slide_title {
+            text-align: center;
+            position: relative;
+            font-size: 16px;
+            margin-top: 45px;
+            font-family: $font-family-Montserrat;
+            color: $font-color;
+            &::after {
+                position: absolute;
+                content: '';
+                bottom: -25px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 15px;
+                border-bottom: 1px solid $primary-color;
+            }
+        }
+        .popular_post_slides {
+            margin-top: 45px;
+            .popular_post_slide {
+                .popular_post_card {
+                    display: flex;
+                    margin: auto;
+                    width: 100%;
+                    margin: 30px 0px;
+                    .popular_post_card-image {
+                        width: 35%;
+                        text-align: center;
+                    }
+                    .popular_post_card_details {
+                        width: 65%;
+                        .popular_post_card_title {
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: $font-color;
+                        }
+                        .popular_post_card_publishDate {
+                            font-size: 16px;
+                            color: $font-color-2;
+                        }
+                    }
+                }
+            }
         }
     }
-    .popular_post_slides {
+    // Post Category Shortcut Start
+    .post-category-shortcut {
         margin-top: 45px;
-        .popular_post_slide {
-            .popular_post_card {
+        .PostCategoryShortCut {
+            display: block;
+            margin: auto;
+            text-align: center;
+            .PostCategoryShortCut-list {
+                margin: 10px 0px;
+                .PostCategoryShortCutItem {
+                    display: block;
+                    width: 250px;
+                    height: 55px;
+                    line-height: 55px;
+                    text-align: center;
+                    margin: auto;
+                    background: #f3f3f3;
+                    border-radius: 10px;
+                    color: $font-color;
+                    font-size: 18px;
+                    font-family: $font-family-Montserrat;
+                    transition: all linear .3s;
+                    &:hover {
+                        background: #2c2d2f;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .instagram-widget {
+        .instagram-widget-title {
+            text-align: center;
+            position: relative;
+            font-size: 16px;
+            margin-top: 45px;
+            font-family: $font-family-Montserrat;
+            color: $font-color;
+            &::after {
+                position: absolute;
+                content: '';
+                bottom: -25px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 15px;
+                border-bottom: 1px solid $primary-color;
+            }
+        }
+        .instagram-widget-imageGrid {
+            margin-top: 45px;
+            .instagram-widget-image {
                 display: flex;
-                margin: auto;
                 width: 100%;
-                margin: 30px 0px;
-                .popular_post_card-image {
-                    width: 35%;
-                    text-align: center;
-                }
-                .popular_post_card_details {
-                    width: 65%;
-                    .popular_post_card_title {
-                        font-size: 16px;
-                        font-weight: 700;
-                        color: $font-color;
-                    }
-                    .popular_post_card_publishDate {
-                        font-size: 16px;
-                        color: $font-color-2;
+                flex-direction: column;
+                .instagram-widget-imageGrid-row {
+                    width: 270px;
+                    margin: auto;
+                    .instagram-widgetImageGridItems {
+                        width: 135px;
+                        float: left;
+                        text-align: center;
                     }
                 }
             }
         }
-    }
-}
-
-// Post Category Shortcut Start
-.post-category-shortcut {
-    margin-top: 45px;
-    .PostCategoryShortCut {
-        display: block;
-        margin: auto;
-        text-align: center;
-        .PostCategoryShortCut-list {
-            margin: 10px 0px;
-            .PostCategoryShortCutItem {
-                display: block;
-                width: 250px;
-                height: 55px;
-                line-height: 55px;
-                text-align: center;
-                margin: auto;
-                background: #f3f3f3;
-                border-radius: 10px;
-                color: $font-color;
-                font-size: 18px;
-                font-family: $font-family-Montserrat;
-                transition: all linear .3s;
-                &:hover {
-                    background: #2c2d2f;
-                    color: #fff;
-                }
-            }
+        .Instagram_follow {
+            display: block;
+            text-align: center;
+            font-size: 22px;
+            font-family: $font-family-dancing;
+            color: #2c2d2f;
+            margin-top: 15px;
+            margin-bottom: 45px;
+            i {}
         }
-    }
-}
-
-.instagram-widget {
-    .instagram-widget-title {
-        text-align: center;
-        position: relative;
-        font-size: 16px;
-        margin-top: 45px;
-        font-family: $font-family-Montserrat;
-        color: $font-color;
-        &::after {
-            position: absolute;
-            content: '';
-            bottom: -25px;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 15px;
-            border-bottom: 1px solid $primary-color;
-        }
-    }
-    .instagram-widget-imageGrid {
-        margin-top: 45px;
-        .instagram-widget-image {
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-            .instagram-widget-imageGrid-row {
-                width: 270px;
-                margin: auto;
-                .instagram-widgetImageGridItems {
-                    width: 135px;
-                    float: left;
-                    text-align: center;
-                }
-            }
-        }
-    }
-    .Instagram_follow {
-        display: block;
-        text-align: center;
-        font-size: 22px;
-        font-family: $font-family-dancing;
-        color: #2c2d2f;
-        margin-top: 15px;
-        margin-bottom: 45px;
     }
 }
 
