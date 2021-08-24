@@ -2,10 +2,10 @@
 	"version": 3,
 	"file": "responsive.css",
 	"sources": [
-		"../sass/responsive.scss"
+		"../scss/responsive.scss"
 	],
 	"sourcesContent": [
-		"// Breakpoints\r\n"
+		""
 	],
 	"names": [],
 	"mappings": ""
