@@ -836,6 +836,17 @@ a {
   text-align: center;
 }
 
+/* line 729, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.instagram-widget .Instagram_follow {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Dancing Script", cursive;
+  color: #2c2d2f;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
 /* Blog and Widget Card Section End*/
 
 /*# sourceMappingURL=style.css.map */
