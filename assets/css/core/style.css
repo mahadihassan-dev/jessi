@@ -1,852 +1,867 @@
+@charset "UTF-8";
+
 /*Browser Reset Start*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
-/* line 3, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 * {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  list-style: none;
-  box-sizing: border-box;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-/* line 12, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .clr {
-  clear: both;
+    clear: both;
 }
 
-/* line 16, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 a {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
+
 
 /*Browser Reset Start*/
+
+
 /* Importing Varriables */
+
+
 /* Google Font = Poppins */
+
+
 /* Google Font = Montserrat*/
+
+
 /* Google Fonts = Open Sans */
+
+
 /* Google Fonts = Dancing Script */
+
+
 /* Quentin Font Imported */
+
 @font-face {
-  font-family: 'Quentin', sans-serif;
-  src: url(../Quentin.otf);
+    font-family: "Quentin", sans-serif;
+    src: url(../Quentin.otf);
 }
 
+
 /*  Header Section Start */
-/* line 68, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+
 .site_header {
-  margin-top: 30px;
-  position: relative;
+    margin-top: 30px;
+    position: relative;
 }
 
-/* line 71, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .site_header::before {
-  position: absolute;
-  content: "";
-  top: -30px;
-  left: 0;
-  width: 100%;
-  height: 15px;
-  background: #2c2d2f;
+    position: absolute;
+    content: "";
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background: #2c2d2f;
 }
 
-/* line 82, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .site_logo {
-  display: block;
-  margin-top: 30px;
+    display: block;
+    margin-top: 30px;
 }
 
-/* line 87, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .SiteNavigation {
-  position: relative;
-  height: 60px;
-  margin-top: 30px;
-  line-height: 60px;
+    position: relative;
+    height: 60px;
+    margin-top: 30px;
+    line-height: 60px;
 }
 
-/* line 92, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .SiteNavigation::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  border-top: 1px solid #e4e4e4;
-  top: 0;
-  left: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    top: 0;
+    left: 0;
 }
 
-/* line 100, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .SiteNavigation::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  border-top: 1px solid #e4e4e4;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
 }
 
-/* line 111, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .header_search .site_search {
-  color: #2c2d2f;
-  font-size: 18px;
+    color: #2c2d2f;
+    font-size: 18px;
 }
 
-/* line 114, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .header_search .site_search i {
-  transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
-/* line 120, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .siteNavbar {
-  text-align: center;
-  margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 0;
 }
 
-/* line 123, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .siteNavbar .siteNavBarItem {
-  display: inline-block;
+    display: inline-block;
 }
 
-/* line 125, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .siteNavbar .siteNavBarItem .SiteNavBarItems {
-  display: block;
-  font-size: 18px;
-  padding: 0px 10px;
-  color: #2c2d2f;
-  font-family: "Poppins", sans-serif;
+    display: block;
+    font-size: 18px;
+    padding: 0px 10px;
+    color: #2c2d2f;
+    font-family: "Poppins", sans-serif;
 }
 
-/* line 137, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .site_cart_2Nav .SiteCart_2Nav .SiteCart_2Nav_item {
-  display: inline-block;
+    display: inline-block;
 }
 
-/* line 145, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .SiteCart_2Nav .siteCart .SiteCart {
-  color: #2c2d2f;
-  margin-right: 10px;
-  font-size: 18px;
+    color: #2c2d2f;
+    margin-right: 10px;
+    font-size: 18px;
 }
 
-/* line 152, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .SiteCart_2Nav .site_2Nav .Site2Nav {
-  color: #2c2d2f;
-  margin-left: 10px;
-  font-size: 18px;
+    color: #2c2d2f;
+    margin-left: 10px;
+    font-size: 18px;
 }
+
 
 /*  Header Section Start */
+
+
 /*  Banner Section Start */
-/* line 166, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+
 .banner_main {
-  position: relative;
-  background: url(/assets/images/banner.png);
-  height: 800px;
-  background-position: center;
-  background-repeat: no-repeat;
+    position: relative;
+    background: url(/assets/images/banner.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-/* line 172, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .banner_main .banner_socialMedia {
-  position: absolute;
-  top: 50%;
-  left: 160px;
-  transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 160px;
+    transform: translateY(-50%);
 }
 
-/* line 178, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .banner_main .banner_socialMedia .bannerSocialMediaIcon ._banner_socialmedia_icon {
-  color: #fff;
-  font-size: 24px;
+    color: #fff;
+    font-size: 24px;
 }
 
-/* line 184, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .banner_main .banner_scrollDown {
-  position: absolute;
-  bottom: 42px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    position: absolute;
+    bottom: 42px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-/* line 190, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .banner_main .banner_scrollDown .BannerScrollDown {
-  color: #fff;
-  font-size: 22px;
-  text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
 }
+
 
 /*  Banner Section End */
+
+
 /* About Us Section Start */
-/* line 204, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+
 .aboutUs_left {
-  position: relative;
+    position: relative;
 }
 
-/* line 206, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_left .aboutUs_title {
-  margin-top: 135px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  color: #2c2d2f;
+    margin-top: 135px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #2c2d2f;
 }
 
-/* line 212, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_left .aboutUs_description {
-  font-family: "Open Sans", sans-serif;
-  color: #5b5d5f;
-  font-weight: 600;
-  font-size: 14px;
-  margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #5b5d5f;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 30px;
 }
 
-/* line 219, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_left .aboutUs_title_after {
-  position: absolute;
-  top: -100px;
-  right: 0;
-  transform: rotate(-90deg);
-  text-transform: uppercase;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  color: #2c2d2f;
+    position: absolute;
+    top: -100px;
+    right: 0;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #2c2d2f;
 }
 
-/* line 230, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_left .aboutUs_readmore_btn {
-  position: relative;
-  text-transform: uppercase;
-  color: #2c2d2f;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  margin-top: 40px;
-  display: block;
+    position: relative;
+    text-transform: uppercase;
+    color: #2c2d2f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 40px;
+    display: block;
 }
 
-/* line 239, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_left .aboutUs_readmore_btn::after {
-  position: absolute;
-  content: '\f178';
-  top: 1px;
-  right: 145px;
-  font-family: 'Font Awesome 5 pro';
-  font-size: 14px;
+    position: absolute;
+    content: "";
+    top: 1px;
+    right: 145px;
+    font-family: "Font Awesome 5 pro";
+    font-size: 14px;
 }
 
-/* line 250, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_right {
-  position: relative;
+    position: relative;
 }
 
-/* line 252, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_right .aboutUs_sliderImageList {
-  position: absolute;
-  top: 165px;
-  left: 295px;
-  background: #fff;
-  padding: 25px;
+    position: absolute;
+    top: 165px;
+    left: 295px;
+    background: #fff;
+    padding: 25px;
 }
 
-/* line 258, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_right .aboutUs_sliderImageList img {
-  width: 125px;
+    width: 125px;
 }
 
-/* line 262, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_right .aboutUs_socialFollow {
-  position: absolute;
-  top: 50%;
-  right: -55px;
-  transform: translate(-50%, -50%);
-  color: #000;
+    position: absolute;
+    top: 50%;
+    right: -55px;
+    transform: translate(-50%, -50%);
+    color: #000;
 }
 
-/* line 268, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .aboutUs_right .aboutUs_socialFollow .aboutUs_SocialFollow {
-  display: block;
-  transform: rotate(90deg);
-  margin-top: 25px;
-  margin-left: -20px;
-  font-family: "Dancing Script", cursive;
+    display: block;
+    transform: rotate(90deg);
+    margin-top: 25px;
+    margin-left: -20px;
+    font-family: "Dancing Script", cursive;
 }
+
 
 /* About Us Section End */
+
+
 /* Blog and Widget Card Section Start*/
-/* line 285, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+
 .BlogCard_big-main {
-  height: 950px;
+    height: 950px;
 }
 
-/* line 287, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image {
-  position: relative;
+    position: relative;
 }
 
-/* line 290, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .big-blog-category {
-  position: absolute;
-  top: 30px;
-  right: 25px;
-  display: block;
-  background: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 12px;
-  border-radius: 30px;
-  width: 115px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    display: block;
+    background: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 30px;
+    width: 115px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
 }
 
-/* line 308, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription {
-  position: absolute;
-  bottom: -475px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+    position: absolute;
+    bottom: -475px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
-/* line 314, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description {
-  text-align: center;
-  width: 685px;
-  padding: 15px 30px;
-  margin: auto;
-  background-color: #fff;
+    text-align: center;
+    width: 685px;
+    padding: 15px 30px;
+    margin: auto;
+    background-color: #fff;
 }
 
-/* line 320, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-postHistory {
-  font-family: "Dancing Script", cursive;
-  font-size: 22px;
-  margin-top: 10px;
-  display: block;
-  position: relative;
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+    margin-top: 10px;
+    display: block;
+    position: relative;
 }
 
-/* line 326, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-postHistory::after {
-  position: absolute;
-  content: '';
-  bottom: -8px;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-5deg);
-  width: 145px;
-  height: 1px;
-  background: #2c2d2f;
+    position: absolute;
+    content: "";
+    bottom: -8px;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    width: 145px;
+    height: 1px;
+    background: #2c2d2f;
 }
 
-/* line 337, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog_blogtitle {
-  font-family: "Montserrat", sans-serif;
-  font-size: 36px;
-  color: #2c2d2f;
-  font-weight: 700;
-  margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    color: #2c2d2f;
+    font-weight: 700;
+    margin-top: 30px;
 }
 
-/* line 345, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li {
-  display: inline-block;
+    display: inline-block;
 }
 
-/* line 347, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li a {
-  color: #5b5d5f;
+    color: #5b5d5f;
 }
 
-/* line 350, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postReadtimeline {
-  position: relative;
-  margin-right: 10px;
+    position: relative;
+    margin-right: 10px;
 }
 
-/* line 353, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postReadtimeline::after {
-  position: absolute;
-  content: '';
-  top: 10px;
-  right: -15px;
-  width: 5px;
-  height: 5px;
-  background: #5b5d5f;
-  border-radius: 50%;
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: -15px;
+    width: 5px;
+    height: 5px;
+    background: #5b5d5f;
+    border-radius: 50%;
 }
 
-/* line 364, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog-Readtimeline-author li .BCb-postAuthor {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
-/* line 371, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  height: 60px;
-  line-height: 60px;
-  width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
 }
 
-/* line 378, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory {
-  width: 33.33%;
+    width: 33.33%;
 }
 
-/* line 380, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory {
-  position: relative;
-  display: block;
-  width: 110px;
-  text-align: center;
-  height: 60px;
-  line-height: 60px;
-  color: #2c2d2f;
+    position: relative;
+    display: block;
+    width: 110px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #2c2d2f;
 }
 
-/* line 388, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory::before {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  width: 260px;
-  height: 1px;
-  background: #2c2d2f;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 1px;
+    background: #2c2d2f;
 }
 
-/* line 397, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory::after {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  left: 0;
-  width: 260px;
-  height: 1px;
-  background: #2c2d2f;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 260px;
+    height: 1px;
+    background: #2c2d2f;
 }
 
-/* line 408, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardReadMoreBtn {
-  width: 33.33%;
+    width: 33.33%;
 }
 
-/* line 410, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardReadMoreBtn .BigCardReadMoreBtn {
-  position: relative;
-  display: block;
-  width: 135px;
-  text-align: center;
-  height: 38px;
-  line-height: 38px;
-  margin: auto;
-  background: #2c2d2f;
-  color: #fff;
-  border-radius: 30px;
-  margin-top: 12px;
+    position: relative;
+    display: block;
+    width: 135px;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    margin: auto;
+    background: #2c2d2f;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 12px;
 }
 
-/* line 424, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare {
-  width: 33.33%;
+    width: 33.33%;
 }
 
-/* line 426, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare {
-  position: relative;
-  display: block;
-  width: 110px;
-  text-align: center;
-  height: 60px;
-  line-height: 60px;
-  margin-left: auto;
-  color: #2c2d2f;
+    position: relative;
+    display: block;
+    width: 110px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin-left: auto;
+    color: #2c2d2f;
 }
 
-/* line 435, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare::before {
-  position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  width: 260px;
-  height: 1px;
-  background: #2c2d2f;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 260px;
+    height: 1px;
+    background: #2c2d2f;
 }
 
-/* line 444, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare::after {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  right: 0;
-  width: 260px;
-  height: 1px;
-  background: #2c2d2f;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 260px;
+    height: 1px;
+    background: #2c2d2f;
 }
 
-/* line 453, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare i {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
-/* line 464, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
+.blog-card-small .Blog-Card-body .Blog-Card_Thumb_image {
+    position: relative;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card_Thumb_image .blog-post-card-category {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+    width: 108px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: #fff;
+    border-radius: 30px;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details {
+    margin-top: 15px;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blog-post-timeline {
+    position: relative;
+    margin-bottom: 20px;
+    display: block;
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blog-post-timeline::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    width: 125px;
+    height: 0.5px;
+    background: #000;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blog-post-title {
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blogpost-Readtimeline-author li {
+    display: inline-block;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blogpost-Readtimeline-author li a {
+    color: #5b5d5f;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blogpost-Readtimeline-author li .blogpost-author-timeline {
+    font-size: 18px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blogpost-Readtimeline-author li .blogpost-author-timeline::after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: -11px;
+    width: 5px;
+    height: 5px;
+    background: #2c2d2f;
+    border-radius: 50%;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blogpost-description {
+    font-size: 14px;
+}
+
+.blog-card-small .Blog-Card-body .Blog-Card-body_details .blogpost_readmoreBtn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #2c2d2f;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+
 .BlogWidget {
-  border: 1px solid #2c2d2f36;
+    border: 1px solid #2c2d2f36;
 }
 
-/* line 467, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .ourLocation_widget {
-  text-align: center;
-  position: relative;
+    text-align: center;
+    position: relative;
 }
 
-/* line 470, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .ourLocation_widget::after {
-  position: absolute;
-  content: "";
-  bottom: -20px;
-  left: 50%;
-  width: 260px;
-  height: .1px;
-  transform: translate(-50%, -50%);
-  background: #2c2d2f40;
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    left: 50%;
+    width: 260px;
+    height: 0.1px;
+    transform: translate(-50%, -50%);
+    background: #2c2d2f40;
 }
 
-/* line 480, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .ourLocation_widget .ourLocation_title {
-  font-size: 16px;
-  margin-top: 45px;
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  color: #2c2d2f;
+    font-size: 16px;
+    margin-top: 45px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    color: #2c2d2f;
 }
 
-/* line 486, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .ourLocation_widget .ourLocation_title::after {
-  position: absolute;
-  content: '';
-  bottom: -25px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 15px;
-  border-bottom: 1px solid #2c2d2f;
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    border-bottom: 1px solid #2c2d2f;
 }
 
-/* line 496, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .ourLocation_widget .ourLocation_map {
-  margin-top: 45px;
-  margin-bottom: 45px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
-/* line 500, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .ourLocation_widget .ourLocation_address {
-  margin-bottom: 45px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #2c2d2f;
+    margin-bottom: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #2c2d2f;
 }
 
-/* line 508, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget {
-  text-align: center;
-  padding: 0px 25px;
+    text-align: center;
+    padding: 0px 25px;
 }
 
-/* line 511, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget .author_helloMessage {
-  font-size: 16px;
-  margin-top: 45px;
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  color: #2c2d2f;
+    font-size: 16px;
+    margin-top: 45px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    color: #2c2d2f;
 }
 
-/* line 517, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget .author_helloMessage::after {
-  position: absolute;
-  content: '';
-  bottom: -25px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 15px;
-  border-bottom: 1px solid #2c2d2f;
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    border-bottom: 1px solid #2c2d2f;
 }
 
-/* line 527, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget .author_profileImage {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
-/* line 530, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget .authorName {
-  font-family: "Dancing Script", cursive;
-  text-transform: capitalize;
-  font-weight: bold;
-  margin-top: 45px;
+    font-family: "Dancing Script", cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 45px;
 }
 
-/* line 536, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget .authorMessage {
-  margin-top: 35px;
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+    margin-top: 35px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
-/* line 542, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget .author_widget_social {
-  margin-top: 35px;
+    margin-top: 35px;
 }
 
-/* line 544, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget .author_widget_social li {
-  display: inline-block;
+    display: inline-block;
 }
 
-/* line 546, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .author_widget .author_widget_social li .author_social_media {
-  display: block;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  background: #e4e4e4;
-  color: #2c2d2f;
-  border-radius: 8px;
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #e4e4e4;
+    color: #2c2d2f;
+    border-radius: 8px;
 }
 
-/* line 560, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .trending_post_slider_widget {
-  text-align: center;
+    text-align: center;
 }
 
-/* line 562, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .trending_post_slider_widget .trending_slider_title {
-  font-size: 16px;
-  margin-top: 45px;
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  color: #2c2d2f;
+    font-size: 16px;
+    margin-top: 45px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    color: #2c2d2f;
 }
 
-/* line 568, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .trending_post_slider_widget .trending_slider_title::after {
-  position: absolute;
-  content: '';
-  bottom: -25px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 15px;
-  border-bottom: 1px solid #2c2d2f;
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    border-bottom: 1px solid #2c2d2f;
 }
 
-/* line 578, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .trending_post_slider_widget .trending_slider {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
-/* line 580, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .trending_post_slider_widget .trending_slider .trending_slide {
-  width: 250px;
-  margin: auto;
-  position: relative;
+    width: 250px;
+    margin: auto;
+    position: relative;
 }
 
-/* line 584, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .trending_post_slider_widget .trending_slider .trending_slide .trending_slide_info {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-/* line 591, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .trending_post_slider_widget .trending_slider .trending_slide .trending_slide_info .trending_slide_info_title {
-  font-size: 22px;
-  color: #fff;
-  margin-top: 85px;
-  font-family: "Montserrat", sans-serif;
-  padding: 0px 30px;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 85px;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 30px;
 }
 
-/* line 598, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .trending_post_slider_widget .trending_slider .trending_slide .trending_slide_info .trending_slideBtn {
-  display: block;
-  width: 135px;
-  height: 35px;
-  line-height: 35px;
-  border-radius: 30px;
-  background: #ffffff70;
-  color: #fff;
-  margin: auto;
-  margin-top: 55px;
+    display: block;
+    width: 135px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 30px;
+    background: #ffffff70;
+    color: #fff;
+    margin: auto;
+    margin-top: 55px;
 }
 
-/* line 615, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .popular_post_slider .popular_post_slide_title {
-  text-align: center;
-  position: relative;
-  font-size: 16px;
-  margin-top: 45px;
-  font-family: "Montserrat", sans-serif;
-  color: #2c2d2f;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    margin-top: 45px;
+    font-family: "Montserrat", sans-serif;
+    color: #2c2d2f;
 }
 
-/* line 622, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .popular_post_slider .popular_post_slide_title::after {
-  position: absolute;
-  content: '';
-  bottom: -25px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 15px;
-  border-bottom: 1px solid #2c2d2f;
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    border-bottom: 1px solid #2c2d2f;
 }
 
-/* line 632, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .popular_post_slider .popular_post_slides {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
-/* line 635, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card {
-  display: flex;
-  margin: auto;
-  width: 100%;
-  margin: 30px 0px;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin: 30px 0px;
 }
 
-/* line 640, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card-image {
-  width: 35%;
-  text-align: center;
+    width: 35%;
+    text-align: center;
 }
 
-/* line 644, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details {
-  width: 65%;
+    width: 65%;
 }
 
-/* line 646, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details .popular_post_card_title {
-  font-size: 16px;
-  font-weight: 700;
-  color: #2c2d2f;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2c2d2f;
 }
 
-/* line 651, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .popular_post_slider .popular_post_slides .popular_post_slide .popular_post_card .popular_post_card_details .popular_post_card_publishDate {
-  font-size: 16px;
-  color: #5b5d5f;
+    font-size: 16px;
+    color: #5b5d5f;
 }
 
-/* line 661, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .post-category-shortcut {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
-/* line 663, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .post-category-shortcut .PostCategoryShortCut {
-  display: block;
-  margin: auto;
-  text-align: center;
+    display: block;
+    margin: auto;
+    text-align: center;
 }
 
-/* line 667, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list {
-  margin: 10px 0px;
+    margin: 10px 0px;
 }
 
-/* line 669, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list .PostCategoryShortCutItem {
-  display: block;
-  width: 250px;
-  height: 55px;
-  line-height: 55px;
-  text-align: center;
-  margin: auto;
-  background: #f3f3f3;
-  border-radius: 10px;
-  color: #2c2d2f;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  transition: all linear .3s;
+    display: block;
+    width: 250px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    margin: auto;
+    background: #f3f3f3;
+    border-radius: 10px;
+    color: #2c2d2f;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    transition: all linear 0.3s;
 }
 
-/* line 682, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .post-category-shortcut .PostCategoryShortCut .PostCategoryShortCut-list .PostCategoryShortCutItem:hover {
-  background: #2c2d2f;
-  color: #fff;
+    background: #2c2d2f;
+    color: #fff;
 }
 
-/* line 691, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .instagram-widget .instagram-widget-title {
-  text-align: center;
-  position: relative;
-  font-size: 16px;
-  margin-top: 45px;
-  font-family: "Montserrat", sans-serif;
-  color: #2c2d2f;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    margin-top: 45px;
+    font-family: "Montserrat", sans-serif;
+    color: #2c2d2f;
 }
 
-/* line 698, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .instagram-widget .instagram-widget-title::after {
-  position: absolute;
-  content: '';
-  bottom: -25px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 15px;
-  border-bottom: 1px solid #2c2d2f;
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    border-bottom: 1px solid #2c2d2f;
 }
 
-/* line 708, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .instagram-widget .instagram-widget-imageGrid {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
-/* line 710, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .instagram-widget .instagram-widget-imageGrid .instagram-widget-image {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
-/* line 714, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .instagram-widget .instagram-widget-imageGrid .instagram-widget-image .instagram-widget-imageGrid-row {
-  width: 270px;
-  margin: auto;
+    width: 270px;
+    margin: auto;
 }
 
-/* line 717, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .instagram-widget .instagram-widget-imageGrid .instagram-widget-image .instagram-widget-imageGrid-row .instagram-widgetImageGridItems {
-  width: 135px;
-  float: left;
-  text-align: center;
+    width: 135px;
+    float: left;
+    text-align: center;
 }
 
-/* line 725, ../../GitHub Projects/jessi/assets/css/sass/style.scss */
 .BlogWidget .instagram-widget .Instagram_follow {
-  display: block;
-  text-align: center;
-  font-size: 22px;
-  font-family: "Dancing Script", cursive;
-  color: #2c2d2f;
-  margin-top: 15px;
-  margin-bottom: 45px;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Dancing Script", cursive;
+    color: #2c2d2f;
+    margin-top: 15px;
+    margin-bottom: 45px;
 }
+
 
 /* Blog and Widget Card Section End*/
-
-/*# sourceMappingURL=style.css.map */
