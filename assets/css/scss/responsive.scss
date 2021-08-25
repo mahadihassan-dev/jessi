@@ -1,0 +1,359 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    // Header Section Start
+    .jessi_menu-row {
+        .jessi_menu-col-md-2 {
+            width: 5%;
+        }
+        .jessi_menu-col-md-8 {
+            width: 80%;
+        }
+    }
+    .SiteCart_2Nav {
+        display: flex;
+        margin-left: -17px;
+    }
+    .aboutUs_title {
+        margin-top: 135px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        color: #2c2d2f;
+    }
+    .aboutUs_title {
+        margin-top: 135px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        color: #2c2d2f;
+    }
+    .aboutUs_title_after {
+        position: absolute;
+        top: 30px;
+        right: 0;
+        transform: rotate( -90deg);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        color: #2c2d2f;
+    }
+    .aboutUs_sliderImageList {
+        position: absolute;
+        top: 305px;
+        left: 10px;
+        background: #fff;
+        padding: 25px;
+    }
+    .aboutUs_readmore_btn::after {
+        position: absolute;
+        content: '\f178';
+        top: 1px;
+        right: 88px;
+        font-family: 'Font Awesome 5 pro';
+        font-size: 14px;
+    }
+    .aboutUs_right .aboutUs_sliderImageList img {
+        width: 70px;
+    }
+    .aboutUs_right .aboutUs_socialFollow .aboutUs_SocialFollow {
+        display: block;
+        transform: rotate( 0deg);
+        margin-top: -25px;
+        margin-left: 23px;
+        font-family: "Dancing Script", cursive;
+    }
+    .aboutUs_right .aboutUs_socialFollow {
+        position: absolute;
+        bottom: -125px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #000;
+    }
+    .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description {
+        text-align: center;
+        width: 260px;
+        padding: 15px 30px;
+        margin: auto;
+        background-color: #fff;
+    }
+    .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BlogCard_blog-description .BigCard_blog_blogtitle {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        color: #2c2d2f;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    p.BigCard_blog_description {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardReadMoreBtn .BigCardReadMoreBtn {
+        position: relative;
+        display: block;
+        width: 100px;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        margin: auto;
+        background: #2c2d2f;
+        color: #fff;
+        border-radius: 30px;
+        margin-top: 17px;
+        font-size: 14px;
+    }
+    .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 90px;
+        height: 1px;
+        background: #2c2d2f;
+    }
+    .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardCategory .BigCardCategory::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 90px;
+        height: 1px;
+        background: #2c2d2f;
+    }
+    .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        width: 90px;
+        height: 1px;
+        background: #2c2d2f;
+    }
+    .BlogCard_big-main .BlogCard_big-image .BlogCard_bigCardDescription .BigCard_blog-ShareCategoryRead .BigCard_blog-BigCardShare .BigCardShare::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        right: 0;
+        width: 90px;
+        height: 1px;
+        background: #2c2d2f;
+    }
+    .blogCard_Section .loadMoreBlogBtn {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #000;
+        text-align: center;
+        color: #000;
+        border-radius: 30px;
+        position: relative;
+        margin-top: 45px;
+    }
+    .blogCard_Section .loadMoreBlogBtn {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #000;
+        text-align: center;
+        color: #000;
+        border-radius: 30px;
+        position: relative;
+        margin-top: 45px;
+    }
+    .blogCard_Section .loadMoreBlogBtn {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #000;
+        text-align: center;
+        color: #000;
+        border-radius: 30px;
+        position: relative;
+        margin-top: 45px;
+    }
+    .BlogWidget .author_widget .author_widget_social li .author_social_media {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #e4e4e4;
+        color: #2c2d2f;
+        border-radius: 8px;
+    }
+    .footer_main .footer-newletter {
+        text-align: center;
+        background: url(/assets/images/footer_newsletter-cardbg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 280px;
+        height: 370px;
+        border-radius: 10px;
+        z-index: 1;
+        margin: auto;
+        padding: 70px 10px;
+    }
+    .footer_main .footer-newletter .footerNewsForm {
+        width: 215px;
+        height: 45px;
+        line-height: 45px;
+        margin: auto;
+        margin-top: 35px;
+        position: relative;
+    }
+    .footer_main .footer-right .site-footer-blog .footer_menu li .footer_menu_item {
+        display: block;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #2c2d2f;
+        padding: 0px 10px;
+        margin-top: 0px;
+    }
+    .aboutUs_left {
+        position: relative;
+        margin-top: -195px;
+    }
+    .aboutUs_left .aboutUs_title_after {
+        position: absolute;
+        top: 30px;
+        right: 0;
+        transform: rotate( -90deg);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        color: #2c2d2f;
+    }
+    .aboutUs_left .aboutUs_readmore_btn::after {
+        position: absolute;
+        content: '\f178';
+        top: 1px;
+        right: 80px;
+        font-family: 'Font Awesome 5 pro';
+        font-size: 14px;
+    }
+    .aboutUs_right .aboutUs_sliderImageList {
+        position: absolute;
+        top: 165px;
+        left: 10px;
+        background: #fff;
+        padding: 25px;
+    }
+    .aboutUs_right .aboutUs_sliderImageList {
+        position: absolute;
+        top: 300px;
+        left: 10px;
+        background: #fff;
+        padding: 25px;
+    }
+    .aboutUs_right {
+        position: relative;
+        margin-top: 45px;
+    }
+    .BlogCard_big-main {
+        height: 950px;
+        margin-top: 45px;
+    }
+    .blog-card-small {
+        margin-top: -400px;
+    }
+    .BlogWidget {
+        border: 1px solid #2c2d2f36;
+        margin-top: 30px;
+    }
+    .blogCard_Section .loadMoreBlogBtn::before {
+        position: absolute;
+        content: '';
+        width: 75px;
+        height: .5px;
+        top: 20px;
+        left: -85px;
+        background: #2c2d2f;
+    }
+    .blogCard_Section .loadMoreBlogBtn::after {
+        position: absolute;
+        content: '';
+        width: 75px;
+        height: .5px;
+        top: 20px;
+        right: -85px;
+        background: #2c2d2f;
+    }
+    .aboutUs_right .aboutUs_socialFollow {
+        position: absolute;
+        top: 440px;
+        left: 62%;
+        transform: translate(-50%, -50%);
+        color: #000;
+    }
+    .banner_main .banner_socialMedia {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+    .blogCard_Section::after {
+        position: absolute;
+        content: '';
+        width: 50px;
+        height: .5px;
+        top: 20px;
+        left: 50%;
+        background: #2c2d2f;
+        transform: translate(-50%, -50%);
+    }
+    // Blog Card Widget
+    .blogCard_Section {
+        .loadMoreBlogBtn &::before {
+            position: absolute;
+            content: '';
+            width: 50px;
+            height: .5px;
+            top: 20px;
+            left: -60px;
+            background: #2c2d2f;
+        }
+        &::after {
+            position: absolute;
+            content: '';
+            width: 50px;
+            height: .5px;
+            top: 20px;
+            right: -60px;
+            background: #2c2d2f;
+        }
+    }
+    // Footer Section Start
+    .footer_main {
+        .footer-newletter {
+            text-align: center;
+            background: url(/assets/images/footer_newsletter-cardbg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            width: 280px;
+            height: 370px;
+            border-radius: 10px;
+            z-index: 1;
+            margin: auto;
+            padding: 70px 10px;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
